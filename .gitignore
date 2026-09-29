@@ -1,0 +1,18 @@
+# Deps / build output — never commit
+node_modules/
+dist/
+
+# Local env / editor
+.env*
+*.local
+.DS_Store
+Thumbs.db
+*.log
+
+# Generated / internal tooling — not part of the public repo
+brag-output/
+.agents/
+skills-lock.json
+
+# Internal spec doc — keep local, not for GitHub
+receipt-ocr-complete-prd.md
